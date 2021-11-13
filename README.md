@@ -1,5 +1,5 @@
-# railway-xray-new
-# 使用Railway部署Xray高性能代理服务，通过ws传输的 (vmess、vless、trojan shadowsocks、socks)等协议
+# Google Cloud Platform yyds
+# 使用GCP部署Xray高性能代理服务，通过ws传输的 (vmess、vless、trojan shadowsocks、socks)等协议
 
 > 提醒： 滥用可能导致账户被BAN！！！ 
 
@@ -15,9 +15,9 @@
 
 ## 概述
 
-### 官网：railway.app
+### 官网：cloud.google.com
 
-用于在 railway 上部署 vless+websocket+tls，每次部署自动选择最新的 alpine linux 和 Xray core 。  
+用于在 GCP 上部署 vless+websocket+tls，每次部署自动选择最新的 alpine linux 和 Xray core 。  
 vless 性能更加优秀，占用资源更少。
 
 * 使用[xray](https://github.com/XTLS/Xray-core)+caddy同时部署通过ws传输的vmess vless trojan shadowsocks socks等协议，并默认已配置好伪装网站。
@@ -34,7 +34,7 @@ vless 性能更加优秀，占用资源更少。
 
 ### 服务端
 
-fork 之后 ，在railway的dashboard，选择 new project
+fork 之后 ，在GCP的dashboard，选择 new project
 [![CHIH8A.png](https://www.helloimg.com/images/2021/09/05/CHIH8A.png)](https://www.helloimg.com/image/CHIH8A)
 然后在github中选中本仓库
 [![5oSpg.png](https://i.w3tt.com/2021/09/05/5oSpg.png)](https://img.tg/image/5oSpg)
